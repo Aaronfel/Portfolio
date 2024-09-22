@@ -8,8 +8,9 @@ const About: React.FC = () => {
   return (
     <div className="animate__animated animate__bounceInLeft h-[70vh] lg:mt-20 grid lg:grid-cols-2 rounded-md">
       <div className="flex items-center justify-center mb-10 lg:mb-0 text-3xl lg:text-6xl h-full">
-        Im a Passionate <br /> Full Stack Web Developer <br /> Creative and
-        Interested <br /> In Learning new Technologies
+        Im a passionate <br className="hidden lg:block" /> Full Stack Web
+        Developer <br className="hidden lg:block" /> creative and interested
+        <br className="hidden lg:block" /> in learning new technologies
       </div>
       <div className="flex justify-center items-center h-full">
         <div>

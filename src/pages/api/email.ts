@@ -7,7 +7,8 @@ export default async function sendEmail(
 ) {
   if (req.method === "POST") {
     const mail = `
-    <h1>Hello Aaron</h1>
+    <h1>Incoming email from: </h1>
+    <h2>${req.body.sender}</h2>
     <h3>${req.body.subject}</h3>
     <p>${req.body.message}</p>`;
 
@@ -21,7 +22,7 @@ export default async function sendEmail(
       },
     });
 
-    const info = await transporter.sendMail({
+    await transporter.sendMail({
       from: req.body.sender,
       to: "feldmanaaron406@gmail.com",
       subject: req.body.subject,
