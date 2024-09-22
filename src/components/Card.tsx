@@ -34,7 +34,7 @@ const Card = ({ title, src, description, techs, company, link }: CardProps) => {
           className={`mb-3 font-normal ${
             !showDescription &&
             "max-h-[150px] overflow-hidden text-ellipsis line-clamp-3"
-          } text-gray-700 dark:text-gray-400`}
+          } text-gray-400`}
         >
           {description}
         </p>

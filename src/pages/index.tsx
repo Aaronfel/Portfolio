@@ -17,7 +17,7 @@ export default function Home() {
   const Component = sections[section as keyof typeof sections];
 
   return (
-    <main className="py-5 px-10">
+    <main className="min-h-[100vh] py-5 px-10">
       <Header />
       <Component />
     </main>
