@@ -51,12 +51,12 @@ const Navbar: React.FC = () => {
         {/* Mobile */}
         <div
           className={`${
-            showHamburguer ? "block" : "hidden"
-          } w-full md:hidden md:w-auto" id="navbar-solid-bg`}
+            showHamburguer ? "absolute z-50 max-w-[300px]" : "hidden"
+          } w-full md:hidden md:w-auto"`}
         >
           <ul className="flex flex-col font-medium mt-4 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 bg-gray-800 md:bg-transparent border-gray-700">
             <li
-              className="block py-2 px-3 md:p-0 rounded md:border-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent cursor-pointer"
+              className="block py-3 px-3 md:p-0 rounded md:border-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent cursor-pointer"
               onClick={() => {
                 handleChangeSection("About");
                 setShowHamburguer(false);
@@ -65,7 +65,7 @@ const Navbar: React.FC = () => {
               About
             </li>
             <li
-              className="block py-2 px-3 md:p-0 rounded md:border-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent cursor-pointer"
+              className="block py-3 px-3 md:p-0 rounded md:border-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent cursor-pointer"
               onClick={() => {
                 handleChangeSection("Skills");
                 setShowHamburguer(false);
@@ -74,7 +74,7 @@ const Navbar: React.FC = () => {
               Skills
             </li>
             <li
-              className="block py-2 px-3 md:p-0 rounded md:border-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent cursor-pointer"
+              className="block py-3 px-3 md:p-0 rounded md:border-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent cursor-pointer"
               onClick={() => {
                 handleChangeSection("Projects");
                 setShowHamburguer(false);

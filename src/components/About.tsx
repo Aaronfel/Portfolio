@@ -6,7 +6,7 @@ const About: React.FC = () => {
   const arrTechs = Array.from({ length: 6 });
 
   return (
-    <div className="animate__animated animate__bounceInLeft h-[70vh] lg:mt-20 grid lg:grid-cols-2 rounded-md">
+    <div className="animate__animated animate__bounceInLeft h-full lg:mt-20 grid lg:grid-cols-2 rounded-md">
       <div className="flex items-center justify-center mb-10 lg:mb-0 text-3xl lg:text-6xl h-full">
         Im a passionate <br className="hidden lg:block" /> Full Stack Web
         Developer <br className="hidden lg:block" /> creative and interested
