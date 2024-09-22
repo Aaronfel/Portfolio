@@ -16,7 +16,7 @@ const Card = ({ title, src, description, techs, company, link }: CardProps) => {
 
   return (
     <div
-      className={`w-[400px] my-5 ${
+      className={`lg:w-[400px] my-5 ${
         !showDescription && "h-[550px]"
       } border rounded-lg shadow bg-gray-800 border-gray-700`}
     >

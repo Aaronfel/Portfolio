@@ -16,7 +16,7 @@ import Php from "@/assets/php";
 
 const Projects: React.FC = () => {
   return (
-    <div className="animate__animated animate__bounceInLeft h-[70vh] flex flex-col lg:flex-row lg:flex-wrap xl:mt-20 justify-evenly rounded-md">
+    <div className="animate__animated animate__bounceInLeft h-[70vh] overflow-y-auto flex flex-col lg:flex-row lg:flex-wrap xl:mt-20 justify-evenly rounded-md">
       <Card
         title="Asea Global"
         link="https://www.aseaglobal.com/en-US"
