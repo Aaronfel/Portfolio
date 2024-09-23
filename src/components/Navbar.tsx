@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="w-full border-gray-200">
+    <nav className="w-full relative border-gray-200">
       <div className="md:flex items-center justify-between mx-auto">
         <div className="flex justify-between items-center">
           <h1 className="text-2xl min-w-[100px]">Aaron Feldman</h1>
@@ -51,7 +51,7 @@ const Navbar: React.FC = () => {
         {/* Mobile */}
         <div
           className={`${
-            showHamburguer ? "absolute z-50 max-w-[300px]" : "hidden"
+            showHamburguer ? "absolute z-50" : "hidden"
           } w-full md:hidden md:w-auto"`}
         >
           <ul className="flex flex-col font-medium mt-4 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 bg-gray-800 md:bg-transparent border-gray-700">
