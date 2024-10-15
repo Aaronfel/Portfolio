@@ -44,7 +44,7 @@ const Projects: React.FC = () => {
         title="Docxpresso Dx-Legal"
         company="Company: Greelow LLC"
         src={docxpresso}
-        description="I worked on Mc-Ayuda, a chatbot designed to assist users with specific document-related issues for Arcos Dorados (McDonald's). The chatbot streamlined user interactions by providing fast, targeted solutions to document problems, enhancing efficiency and support within the company."
+        description="Developed an admin panel for a company in spain, using recursive funcionality, trees and different structurs for both backend and frontend. I have developed the UI using react with tailwind, Inertia (an extension of laravel for creating frontend with react) for the frontend side, and Laravel with Mysql database for the backend side"
         techs={[Laravel, Php, Javascript, ReactIcon, Tailwind]}
       />
     </div>
