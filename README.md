@@ -30,5 +30,5 @@ Welcome to my personal portfolio website! This site showcases my professional ex
 
 Want to work together or chat?
 
-- 📧 Email: [info@binculo.com](mailto:feldmanaaron406@gmail.com)
+- 📧 Email: [feldmanaaron406@gmail.com](mailto:feldmanaaron406@gmail.com)
 - 💼 LinkedIn: [linkedin.com/in/aaron-feldman](https://linkedin.com/in/aaron-feldman-99b7031a4)
