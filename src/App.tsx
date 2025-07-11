@@ -287,7 +287,7 @@ function App() {
             <div className="block lg:hidden text-center">
               <div className="mb-8">
                 <img
-                  src="/public/IMG_0195.jpg"
+                  src="/IMG_0195.jpg"
                   alt="Aaron Feldman"
                   className="w-48 h-48 md:w-56 md:h-56 rounded-full mx-auto object-cover border-6 border-white dark:border-gray-700 shadow-2xl ring-4 ring-emerald-200 dark:ring-emerald-800"
                 />
@@ -323,7 +323,7 @@ function App() {
               {/* Left Column - Image */}
               <div className="flex justify-center">
                 <img
-                  src="/public/IMG_0195.jpg"
+                  src="/IMG_0195.jpg"
                   alt="Aaron Feldman"
                   className="w-80 h-80 xl:w-96 xl:h-96 rounded-full object-cover border-6 border-white dark:border-gray-700 shadow-2xl ring-4 ring-emerald-200 dark:ring-emerald-800"
                 />
