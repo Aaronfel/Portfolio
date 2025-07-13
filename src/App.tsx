@@ -195,10 +195,10 @@ function App() {
       description:
         "Led development of scalable web applications using React, NestJS, and AWS services. Built responsive interfaces with Tailwind CSS and implemented CI/CD pipelines.",
       achievements: [
-        "Architected microservices handling 100k+ daily requests using NestJS and Laravel",
+        "Architectured backend systems from scratch to MVP using NestJS and Laravel",
         "Implemented modern UI/UX with Tailwind CSS across 20+ projects",
         "Developed RESTful APIs serving multiple frontend applications",
-        "Improved code quality with comprehensive testing and documentation",
+        "Improved code quality with comprehensive testing and documentation using Jest and Supertest",
       ],
     },
     {
@@ -300,7 +300,8 @@ function App() {
               </p>
               <p className="text-lg text-gray-500 dark:text-gray-400 mb-12 max-w-2xl mx-auto">
                 Passionate about building scalable web applications with modern
-                technologies. 3+ years of experience in full stack development.
+                technologies. 3+ years of experience in full stack development,
+                specializing in React, NodeJS, and AWS cloud solutions.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <button
@@ -340,8 +341,8 @@ function App() {
                 <p className="text-xl text-gray-500 dark:text-gray-400 mb-12 leading-relaxed">
                   Passionate about building scalable web applications with
                   modern technologies. 3+ years of experience in full stack
-                  development, specializing in React, React Native, NestJS, and
-                  cloud solutions.
+                  development, specializing in React, NodeJS, and AWS cloud
+                  solutions.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <button
